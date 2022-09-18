@@ -12,7 +12,7 @@ Instructions to this assignment can be found [here](https://it3049c.github.io/Ma
 
 ## Self-Evaluation: 
 how many points out of 20 does your team deserve on this assignment. Revise the assignment grading guideline and assignment rubrics for guidance.
-20
+17/20 couldn't get the log to wrok properly.
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
 I encountered an issue with the game where it didn't allow me to go to the next page. I solved this by simply looking up a few things online and making changes to my program.
