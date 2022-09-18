@@ -26,16 +26,17 @@ function updateGameHistoryUI(){
 
 
 // start-game-button EventListener
-startGameButton.addEventListener(`click`, function () {
-  const username = 
-  game = new RockPaperScissors(userName);
+startGameButton.addEventListener(`click`, function (e) {
+  e.preventDefault();
+  const username = userName;
+  game = new RockPaperScissors(username);
   // Complete
   welcomeScreen.classList.add('d-none');
   gameScreen.classList.remove('d-none');
 });
 
 // go-button EventListener
-goButton.addEventListener(`click`, function () {
+goButton.addEventListener(`click`, function (e) {
   e.preventDefault();
   const userChoice = userSelection.options.value;
   game.play(userChoice);
